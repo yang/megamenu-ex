@@ -1,0 +1,92 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__kS4Aj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.box__aJwXx {
+  position: relative;
+}
+.menuContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  width: 100vw;
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background: #ffffff;
+}
+.menu > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 40px);
+  width: calc(100% + 40px);
+}
+.menu > :global(.__wab_flex-container) > *,
+.menu > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 40px;
+}
+.box__t4Xz8 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.box__t4Xz8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.box__t4Xz8 > :global(.__wab_flex-container) > *,
+.box__t4Xz8 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 20px;
+}
+.box__hGBl {
+  position: relative;
+}
+.box__w7T4 {
+  position: relative;
+}
+.box__xhMaC {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.box__xhMaC > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.box__xhMaC > :global(.__wab_flex-container) > *,
+.box__xhMaC > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 20px;
+}
+.box__yOnLe {
+  position: relative;
+}
+.box__tAiRv {
+  position: relative;
+}

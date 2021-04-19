@@ -1,0 +1,115 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+      "projectName": "Mega menu",
+      "version": "latest",
+      "cssFilePath": "plasmic/mega_menu/plasmic_mega_menu.module.css",
+      "components": [
+        {
+          "id": "E8SIDcgXJ8Ld",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+          "renderModuleFilePath": "plasmic/mega_menu/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/mega_menu/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "dnv_bVJNIF",
+          "name": "NavMenu",
+          "type": "managed",
+          "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+          "renderModuleFilePath": "plasmic/mega_menu/PlasmicNavMenu.tsx",
+          "importSpec": {
+            "modulePath": "NavMenu.tsx"
+          },
+          "cssFilePath": "plasmic/mega_menu/PlasmicNavMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xVI_0YNHH6",
+          "name": "Menu1",
+          "type": "managed",
+          "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+          "renderModuleFilePath": "plasmic/mega_menu/PlasmicMenu1.tsx",
+          "importSpec": {
+            "modulePath": "Menu1.tsx"
+          },
+          "cssFilePath": "plasmic/mega_menu/PlasmicMenu1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "56rALCLRST",
+          "name": "Menu2",
+          "type": "managed",
+          "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+          "renderModuleFilePath": "plasmic/mega_menu/PlasmicMenu2.tsx",
+          "importSpec": {
+            "modulePath": "Menu2.tsx"
+          },
+          "cssFilePath": "plasmic/mega_menu/PlasmicMenu2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "70Nwt501zt",
+          "name": "Menu3",
+          "type": "managed",
+          "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+          "renderModuleFilePath": "plasmic/mega_menu/PlasmicMenu3.tsx",
+          "importSpec": {
+            "modulePath": "Menu3.tsx"
+          },
+          "cssFilePath": "plasmic/mega_menu/PlasmicMenu3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "projectApiToken": "ithbzWLVaUHp4ZzmhUcrtagwOUZWUU1wXKMB8ng9TE0z24jTlsTJYEgjLzwFs9rcminNDTYwPrH4IVMYZzElA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "_sOE-Jv85tfa",
+        "name": "Screen",
+        "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+        "contextFilePath": "plasmic/mega_menu/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.136",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.136/dist/plasmic.schema.json"
+}

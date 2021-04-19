@@ -1,0 +1,19 @@
+{
+  "name": "tmp-cpa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@plasmicapp/cli": "^0.1.136",
+    "@plasmicapp/react-web": "^0.2.27",
+    "@types/react": "^17.0.3",
+    "next": "10.1.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "typescript": "^4.2.4"
+  }
+}

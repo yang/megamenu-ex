@@ -1,0 +1,73 @@
+{
+  "projects": [
+    {
+      "projectId": "xxLpVGLUUz3W9tP5obHKh2",
+      "version": "latest",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "_sOE-Jv85tfa",
+          "checksum": "09d1d47d3f87dd20657461562cd769d2"
+        },
+        {
+          "assetId": "xxLpVGLUUz3W9tP5obHKh2",
+          "type": "projectCss",
+          "checksum": "88aa2e911668ed4fb2f2bf6ee7ff99a4"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "E8SIDcgXJ8Ld",
+          "checksum": "5eca105de9629d19268eed4639d9de58"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "E8SIDcgXJ8Ld",
+          "checksum": "5eca105de9629d19268eed4639d9de58"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "dnv_bVJNIF",
+          "checksum": "94462e7c1edcc1b00dcf6947aeee7585"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "dnv_bVJNIF",
+          "checksum": "94462e7c1edcc1b00dcf6947aeee7585"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "xVI_0YNHH6",
+          "checksum": "107454d61a7c4827f78244553a44a0d7"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "xVI_0YNHH6",
+          "checksum": "107454d61a7c4827f78244553a44a0d7"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "56rALCLRST",
+          "checksum": "0da54a293ebe832af2277bf397d3005c"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "56rALCLRST",
+          "checksum": "0da54a293ebe832af2277bf397d3005c"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "70Nwt501zt",
+          "checksum": "7231ca4f4f332d0d57080da20679d618"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "70Nwt501zt",
+          "checksum": "7231ca4f4f332d0d57080da20679d618"
+        }
+      ]
+    }
+  ],
+  "cliVersion": "0.1.136"
+}
