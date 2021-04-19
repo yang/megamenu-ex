@@ -3,7 +3,7 @@
 import * as React from "react";
 import {
   PlasmicNavMenu,
-  DefaultNavMenuProps
+  DefaultNavMenuProps,
 } from "./plasmic/mega_menu/PlasmicNavMenu";
 
 // Your component props start with props for variants and slots you defined
@@ -36,7 +36,18 @@ function NavMenu(props: NavMenuProps) {
   //
   // By default, we are just piping all NavMenuProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicNavMenu {...props} />;
+
+  return (
+    <PlasmicNavMenu
+      {...props}
+      root={{
+        style: { position: "static" },
+      }}
+      menuContainer={{
+        style: { position: "static" },
+      }}
+    />
+  );
 }
 
 export default NavMenu;
